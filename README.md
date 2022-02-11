@@ -1,6 +1,6 @@
 # iwallet_project
 
-IWallet Mülakat Projesi.
+IWallet Mülakat Projesi. / İzmir - Türkiye
 
 ## Getting Started
 
