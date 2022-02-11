@@ -221,11 +221,11 @@ class _UserListViewState extends State<UserListView> {
                         NetworkImage(infoList[index].downloadUrl.toString())),
                 title: Text(
                   users[index].name!,
-                  style: TextStyle(fontWeight: FontWeight.bold),
+                  style: TextStyles.listTextStyle,
                 ),
                 subtitle: Text(
                   users[index].username!,
-                  style: TextStyle(fontWeight: FontWeight.bold),
+                  style: TextStyles.listTextStyle,
                 ),
                 trailing: const Icon(Icons.arrow_forward_ios),
               ),
@@ -253,11 +253,11 @@ class _UserListViewState extends State<UserListView> {
                         NetworkImage(infoList[index].downloadUrl.toString())),
                 title: Text(
                   userList[index].name!,
-                  style: TextStyle(fontWeight: FontWeight.bold),
+                  style:TextStyles.listTextStyle,
                 ),
                 subtitle: Text(
                   userList[index].username!,
-                  style: TextStyle(fontWeight: FontWeight.bold),
+                  style: TextStyles.listTextStyle,
                 ),
                 trailing: const Icon(Icons.arrow_forward_ios),
               ),
